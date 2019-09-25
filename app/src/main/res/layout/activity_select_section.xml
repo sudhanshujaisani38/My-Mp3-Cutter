@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SelectSectionActivity"
+    android:background="@color/bgBlue">
+
+    <include layout="@layout/toolbar" android:id="@+id/toolbar_select_section"/>
+
+    <com.example.mymp3cutter.AudioWaveformView
+        android:id="@+id/audioWaveform"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar_select_section" />
+
+    <com.crystal.crystalrangeseekbar.widgets.CrystalRangeSeekbar
+        android:id="@+id/rangeSeekbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:bar_color="#8990C4"
+        app:bar_highlight_color="#2434AD"
+        app:corner_radius="10"
+        app:data_type="_long"
+        app:gap="1"
+        app:left_thumb_image="@drawable/icon_left_arrow"
+        app:right_thumb_image="@drawable/icon_right_arrow"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/audioWaveform"
+        app:left_thumb_color="#1A246D"
+        app:left_thumb_color_pressed="#030B47"
+        app:max_value="100"
+        app:min_value="0"
+        app:right_thumb_color="#1A246D"
+        app:right_thumb_color_pressed="#030B47" />
+    <Button
+        android:id="@+id/buttonSelectSection"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginBottom="32dp"
+        android:text="@string/save"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageViewPlayPauseSelectSection"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonSelectSection"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewStart"
+        app:srcCompat="@drawable/icon_play" />
+
+    <TextView
+        android:id="@+id/textViewStart"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginBottom="139dp"
+        android:ems="10"
+        android:textSize="15dp"
+        android:text="@string/from"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toTopOf="@+id/buttonSelectSection"
+        app:layout_constraintEnd_toStartOf="@+id/textViewEnd"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewEnd"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:ems="10"
+        android:text="@string/to"
+        android:textSize="15dp"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/textViewStart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textViewStart" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="@string/from"
+        android:textSize="15dp"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toTopOf="@+id/textViewStart"
+        app:layout_constraintEnd_toEndOf="@+id/textViewStart"
+        app:layout_constraintStart_toStartOf="@+id/textViewStart" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="@string/to"
+        android:textSize="15dp"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toTopOf="@+id/textViewEnd"
+        app:layout_constraintEnd_toEndOf="@+id/textViewEnd"
+        app:layout_constraintStart_toStartOf="@+id/textViewEnd" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="@string/four_zero"
+        android:textSize="15sp"
+        android:layout_marginTop="8dp"
+        android:textColor="@android:color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rangeSeekbar" />
+
+    <TextView
+        android:id="@+id/textViewDurationSelectSection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="@string/to"
+        android:textSize="15sp"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rangeSeekbar" />
+
+
+</android.support.constraint.ConstraintLayout>

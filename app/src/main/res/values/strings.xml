@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">My Mp3 Cutter</string>
+    <string name="app_link">https://linkfortheapp.com/download</string>
+    <string name="req_permission_content">
+        This app helps you easily cut the favorite
+        parts of your audio files and set as default
+        Ringtone, Contact ringtone, Alarm ringtone, and
+        Notification ringtone. We need SD card read
+        and write permissions to edit the audio file, do
+        you want to enable it now?
+    </string>
+    <string name="enable_now">Enable Now</string>
+    <string name="trim_audio">Trim Audio</string>
+    <string name="merge_audio">Merge Audio</string>
+    <string name="mix_audio">Mix Audio</string>
+    <string name="contacts_ringtone">Contacts Ringtone</string>
+    <string name="my_audio">My Audio</string>
+    <string name="settings">Settings</string>
+    <string name="music_file_name">MusicFileName</string>
+    <string name="ringtone">Ringtone</string>
+    <string name="contacts">Contacts</string>
+    <string name="notification">Notification</string>
+    <string name="alarm">Alarm</string>
+    <string name="choose_the_audio">Choose the Audio</string>
+    <string name="duration">Duration</string>
+    <string name="artist_name">Artist Name</string>
+    <string name="atleast_2_songs">Please select atleast 2 songs to merge</string>
+    <string name="selected_songs">Selected Songs</string>
+    <string name="converting">Converting</string>
+    <string name="progress">Progress</string>
+    <string name="selected_song_uri">Selected Song Uri</string>
+    <string name="release_function_limit">Release Function Limit</string>
+    <string name="feedback_email_id">myname@example.com</string>
+    <string name="toast_msg_not_implemented">Not yet implemented</string>
+    <string name="about">About</string>
+    <string name="last_crossed">LastCrossed</string>
+    <string name="original_position">Original Position</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="rename_file">Rename File</string>
+    <string name="are_you_sure">Are you sure?</string>
+    <string name="yes">Yes</string>
+    <string name="google_ad_unit_id">ca-app-pub-7859659421010276/2590823999</string>
+    <string name="google_app_id">ca-app-pub-7859659421010276~4446190516</string>
+    <string name="from">From:</string>
+    <string name="to">To:</string>
+    <string name="four_zero">00:00</string>
+    <string name="operation_success">Operation Success</string>
+    <string name="loading_contacts">Loading Contacts...</string>
+    <string name="merging">Merging</string>
+    <string name="app_description">Help you to cut the favorite part of an audio file easily</string>
+    <string-array name="mix_audio_item_list">
+        <item>Upgrade to VIP</item>
+        <item>Unlimited 1 day after watching an ad</item>
+    </string-array>
+    <string-array name="settings_list">
+        <item>Remove ads</item>
+        <item>BetterIdea Family</item>
+        <item>Feedback</item>
+        <item>Share</item>
+        <item>About</item>
+    </string-array>
+</resources>
