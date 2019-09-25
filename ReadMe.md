@@ -1,17 +1,17 @@
-<img src="/Screenshots/1.jpg" width="200" height="200" />
-![Alt text](/Screenshots/1.jpg =100x100)
-![Alt text](/Screenshots/2.jpg =100x100)
-![Alt text](/Screenshots/3.jpg =100x100)
-![Alt text](/Screenshots/4.jpg =100x100)
-![Alt text](/Screenshots/5.jpg =100x100)
-![Alt text](/Screenshots/6.jpg =100x100)
-![Alt text](/Screenshots/7.jpg =100x100)
-![Alt text](/Screenshots/8.jpg =100x100)
-![Alt text](/Screenshots/9.jpg =100x100)
-![Alt text](/Screenshots/10.jpg =100x100)
-![Alt text](/Screenshots/11.jpg =100x100)
-![Alt text](/Screenshots/12.jpg =100x100)
-![Alt text](/Screenshots/13.jpg =100x100)
-![Alt text](/Screenshots/14.jpg =100x100)
-![Alt text](/Screenshots/15.jpg =100x100)
+<img src="/Screenshots/1.jpg" width="300" height="400" />
+<img src="/Screenshots/2.jpg" width="300" height="400" />
+<img src="/Screenshots/15.jpg" width="300" height="400" />
+<img src="/Screenshots/3.jpg" width="300" height="400" />
+<img src="/Screenshots/4.jpg" width="300" height="400" />
+<img src="/Screenshots/5.jpg" width="300" height="400" />
+<img src="/Screenshots/6.jpg" width="300" height="400" />
+<img src="/Screenshots/7.jpg" width="300" height="400" />
+<img src="/Screenshots/8.jpg" width="300" height="400" />
+<img src="/Screenshots/9.jpg" width="300" height="400" />
+<img src="/Screenshots/10.jpg" width="300" height="400" />
+<img src="/Screenshots/11.jpg" width="300" height="400" />
+<img src="/Screenshots/12.jpg" width="300" height="400" />
+<img src="/Screenshots/13.jpg" width="300" height="400" />
+<img src="/Screenshots/14.jpg" width="300" height="400" />
+
 
