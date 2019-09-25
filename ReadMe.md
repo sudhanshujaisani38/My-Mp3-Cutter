@@ -1,3 +1,4 @@
+<img src="/Screenshots/1.jpg" width="200" height="200" />
 ![Alt text](/Screenshots/1.jpg =100x100)
 ![Alt text](/Screenshots/2.jpg =100x100)
 ![Alt text](/Screenshots/3.jpg =100x100)
